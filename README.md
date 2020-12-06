@@ -1,6 +1,6 @@
 # virtualbox
 
-Install ubunto Linux quickly
+Install ubunto Linux quickly without going throug the installation process
 
 ### Choice 1: download ubuntu image from https://www.osboxes.org/virtualbox-images/
    Virtualbox->Machine->New->
