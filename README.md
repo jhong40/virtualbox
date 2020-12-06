@@ -10,9 +10,9 @@ Install ubunto Linux quickly without going throug the installation process
   * create new folder 
   * copy the Vagrantfile (from this repository) into the new folder
   * cd 'newfolder'
-  * run `vagrant up`  # will download ubuntu image, create and run the vm
+  * run `vagrant up`  # will download ubuntu image (if image not exist locally), create (if not created) and run the vm
   * run `vagrant halt` # stop the vm  
-  * run `vagrant destroy` # destroy the vm
+
   
   
   
