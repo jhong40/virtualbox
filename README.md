@@ -6,8 +6,8 @@ Install ubunto Linux quickly
    Virtualbox->Machine->New->
 
 ### Choice2: (tutorial: https://learn.hashicorp.com/tutorials/vagrant/getting-started-index?in=vagrant/getting-started)
-  install vagrant (https://www.vagrantup.com/downloads)
-  create new folder 
+  * install vagrant (https://www.vagrantup.com/downloads)
+  * create new folder 
   cd 'newfolder'
   copy the Vagrantfile into the new folder
   run 'vagrant up'  # will download ubuntu image, create and run the vm
