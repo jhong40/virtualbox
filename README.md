@@ -6,8 +6,8 @@ Install ubunto Linux quickly without going throug the installation process
    * Virtualbox->Machine->New->...->Use existing Virtual disk image (https://www.osboxes.org/guide/)
    * password: "osboxes.org"
 
-### Choice2: (tutorial: https://learn.hashicorp.com/tutorials/vagrant/getting-started-index?in=vagrant/getting-started)
-  * install vagrant (https://www.vagrantup.com/downloads)
+### Choice2: ([tutorial](https://learn.hashicorp.com/tutorials/vagrant/getting-started-index?in=vagrant/getting-started))
+  * install vagrant: [Download](https://www.vagrantup.com/downloads)
   * create new folder 
   * copy the Vagrantfile (from this repository) into the new folder
   * cd 'newfolder'
