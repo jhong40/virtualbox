@@ -2,7 +2,7 @@
 
 Install ubunto Linux quickly without going throug the installation process
 
-### Choice 1: download ubuntu image from https://www.osboxes.org/virtualbox-images/
+### Choice 1: [download ubuntu image](https://www.osboxes.org/virtualbox-images/)
    * Virtualbox->Machine->New->...->Use existing Virtual disk image (https://www.osboxes.org/guide/)
    * password: "osboxes.org"
 
