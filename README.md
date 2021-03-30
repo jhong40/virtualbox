@@ -15,6 +15,7 @@ Install ubunto Linux quickly without going throug the installation process
   * run `vagrant halt` # stop the vm  
   * run `vagrant status` # check status
   * run `vagrant ssh default` # ssh connect to the vm
+  * run `vagrant ssh host1`
   * run `vagrant destroy`  # destroy vm
 
   
