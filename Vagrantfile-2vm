@@ -1,0 +1,27 @@
+Vagrant.configure("2") do |config|
+  config.vm.define "host1" do |host1|
+    host1.vm.box = "hashicorp/bionic64"
+    host1.vm.hostname = 'host1'  #show the name in vmbox 
+    host1.vm.network "public_network"
+ 
+    host1.vm.provider :virtualbox do |v|
+	  v.name='host1'
+      v.memory = 1024
+      v.cpus = 2
+    end
+  end
+
+  config.vm.define "host2" do |host2|
+    host2.vm.box = "hashicorp/bionic64"
+    host2.vm.hostname = 'host2'  #show the name in vmbox
+    #host2.vm.network :private_network, type: "dhcp"	
+	host2.vm.network "public_network"
+	
+    host2.vm.provider :virtualbox do |v|
+	  v.name='host2'
+      v.memory = 1024
+      v.cpus = 2
+    end
+  end
+  
+end
