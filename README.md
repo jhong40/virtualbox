@@ -2,11 +2,11 @@
 
 Install ubunto Linux quickly without going throug the installation process
 
-### Choice 1: [download ubuntu image](https://www.osboxes.org/virtualbox-images/)
+### Choice 1: OSBoxes [download ubuntu image](https://www.osboxes.org/virtualbox-images/)
    * Virtualbox->Machine->New->...->Use existing Virtual disk image (https://www.osboxes.org/guide/)
    * password: "osboxes.org"
 
-### Choice2: ([tutorial](https://learn.hashicorp.com/tutorials/vagrant/getting-started-index?in=vagrant/getting-started))
+### Choice2: Vagrant ([tutorial](https://learn.hashicorp.com/tutorials/vagrant/getting-started-index?in=vagrant/getting-started))
   * install vagrant: [Download](https://www.vagrantup.com/downloads)
   * create new folder 
   * copy the Vagrantfile (from this repository) into the new folder
