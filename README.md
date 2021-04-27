@@ -2,6 +2,8 @@
 
 Install ubunto Linux quickly without going throug the installation process
 
+[justmeandopensource](https://github.com/justmeandopensource/vagrant/blob/master/vagrantfiles/ubuntu18/Vagrantfile)
+
 ### Choice 1: OSBoxes [download ubuntu image](https://www.osboxes.org/virtualbox-images/)
    * Virtualbox->Machine->New->...->Use existing Virtual disk image (https://www.osboxes.org/guide/)
    * password: "osboxes.org"
